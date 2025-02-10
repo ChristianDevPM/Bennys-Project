@@ -5,7 +5,7 @@ Benny's Project is designed to share and manage documents and code for various d
 
 ## Structure
 - **documents/**: Contains all project-related documents.
-  - **version1/**: Documents for Sprint 1.
+  - **sprint1/**: Documents for Sprint 1.
 - **code/**: Source code for the project.
 
 ## Getting Started
