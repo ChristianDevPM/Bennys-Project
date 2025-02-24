@@ -6,10 +6,10 @@ This folder contains all **Sprint 2 documentation and project files**, including
 
 ## 📄 Documentation
 - **S2_Team_3_SRR2_Documentation.docx** – Full project documentation for Sprint 2, including:
-  - Updated **Use Case Diagram**
-  - Updated **Context Diagram**
-  - **Entity-Relationship Diagram (ERD)**
-  - **Preliminary Supplement Specifications (Non-Functional Requirements)**
+  - 📌 Updated **Use Case Diagram**
+  - 📌 Updated **Context Diagram**
+  - 📌 **Entity-Relationship Diagram (ERD)**
+  - 📌 **Preliminary Supplement Specifications (Non-Functional Requirements)**
 - **S2_Team_3_SRR2_Presentation.pptx** – Sprint 2 **presentation slides** covering key updates and deliverables.
 - **S2_Team_3_GroupEval.docx** – **Sprint 2 team evaluation**, reflecting on progress, challenges, and next steps.
 
@@ -25,11 +25,16 @@ This folder contains all **Sprint 2 documentation and project files**, including
 ✔ **Improved project organization**, ensuring all key deliverables align with project milestones.
 
 ## 📌 Next Steps
-- Prepare for **Sprint 3** by incorporating **team feedback and refining technical requirements**.  
-- Continue **backlog grooming** and adjust priorities based on progress.  
+- 🔹 Prepare for **Sprint 3** by incorporating **team feedback and refining technical requirements**.  
+- 🔹 Continue **backlog grooming** and adjust priorities based on progress.  
 
 ---
 
 ## 🗂 Repository Structure
-- Bennys-Project/documents/sprint2/ – Sprint 2 files
-- Bennys-Project/documents/sprint1/ – Sprint 1 files
+```bash
+Bennys-Project/
+ ├── 📂 documents/
+ │   ├── 📂 sprint1/   # Sprint 1 Deliverables
+ │   ├── 📂 sprint2/   # Sprint 2 Deliverables (this folder)
+ ├── 📂 src/           # Future source code & implementation files
+ ├── README.md         # Main project README
