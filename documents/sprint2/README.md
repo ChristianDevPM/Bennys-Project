@@ -31,3 +31,5 @@ This folder contains all **Sprint 2 documentation and project files**, including
 ---
 
 ## 🗂 Repository Structure
+- Bennys-Project/documents/sprint2/ – Sprint 2 files
+- Bennys-Project/documents/sprint1/ – Sprint 1 files
