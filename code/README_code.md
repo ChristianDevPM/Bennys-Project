@@ -22,7 +22,7 @@ This folder contains development files for **Benny's Pool Time System**.
 ```bash
 Bennys-Project/
  ├── 📂 documents/   # Project documentation
- ├── 📂 src/         # (This folder) Code files & development resources
+ ├── 📂 code/         # (This folder) Code files & development resources
  │   ├── Bennys.sql  # SQL database schema
  │   ├── Test app.py # Python mock-up (not for final use)
  │   ├── .gitkeep    # Keeps directory in version control
