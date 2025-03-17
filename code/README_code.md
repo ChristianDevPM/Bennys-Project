@@ -21,11 +21,11 @@ This folder contains development files for **Benny's Pool Time System**.
 ## 🗂 Repository Structure:
 ```bash
 Bennys-Project/
- ├── 📂 documents/   # Project documentation
  ├── 📂 code/         # (This folder) Code files & development resources
  │   ├── Bennys.sql  # SQL database schema
  │   ├── Test app.py # Python mock-up (not for final use)
  │   ├── .gitkeep    # Keeps directory in version control
+ ├── 📂 documents/   # Project documentation
  ├── README.md       # Main project README
 ```
 
