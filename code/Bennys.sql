@@ -109,14 +109,3 @@ BEGIN
         AND RentalEnd > CAST(GETDATE() AS TIME) -- Convert GETDATE() to TIME
     );
 END;
-
-
-
---customer history
-GO
-CREATE VIEW CUSTOMERHISTORY AS
-SELECT  c.FirstName, c.LastName, c.PhoneNumber, c.EmailAddress, 
-        c.LeagueName, p.RentalDate, p.RentalStart, p.RentalEnd, p.TotalPlayers, r.RateName, r.Rate
-FROM CUSTOMER c
-INNER JOIN POOLRENTAL p ON c.CustomerID = p.CustomerID
-INNER JOIN RATES r ON p.RateID = r.RateID;
