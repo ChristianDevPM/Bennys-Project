@@ -1,4 +1,4 @@
-USE <DATABASENAMEHERE>;
+USE bennys;
 
 CREATE TABLE POOLTABLES (
     TableID INT NOT NULL UNIQUE,
@@ -6,21 +6,12 @@ CREATE TABLE POOLTABLES (
     CONSTRAINT PK_POOLTABLES PRIMARY KEY (TableID)
 );
 
-INSERT INTO POOLTABLES (TableID) 
-    VALUES (1), (2), (3), (4), (5), (6), (7), (8), (9), (10);
-
 CREATE TABLE RATES (
     RateID INT NOT NULL IDENTITY(1,1),
     RateName VARCHAR(50) NOT NULL,
     Rate DECIMAL(6,2) NOT NULL,
     CONSTRAINT PK_RATES PRIMARY KEY (RateID)
 );
-
-INSERT INTO RATES 
-    (RateName, Rate)
-    VALUES (1, 'Standard Weekday', 3.00), (2, 'Standard Weekend', 3.00), (3, 'Friday and Saturday Nights', 5.00),
-    (4, 'League', 3.00), (5, 'Weekend Night Group', 15.00)
-
 
 CREATE TABLE CUSTOMER (
     CustomerID INT NOT NULL IDENTITY(100,1),
@@ -47,6 +38,17 @@ CREATE TABLE POOLRENTAL (
     CONSTRAINT FK_POOLRENTAL_POOLTABLES FOREIGN KEY (TableID) REFERENCES POOLTABLES(TableID),
 );
 
+INSERT INTO POOLTABLES (TableID) 
+    VALUES (1), (2), (3), (4), (5), (6), (7), (8), (9), (10);
+
+INSERT INTO RATES (RateName, Rate)
+    VALUES 
+    ('Standard Weekday', 3.00), 
+    ('Standard Weekend', 3.00), 
+    ('Friday and Saturday Nights', 5.00),
+    ('League', 3.00), 
+    ('Weekend Night Group', 15.00);
+;
 
 --Prevent overlapping bookings on the same pool table
 GO
@@ -104,9 +106,11 @@ BEGIN
     AND NOT EXISTS (
         SELECT 1 FROM POOLRENTAL
         WHERE POOLRENTAL.TableID = POOLTABLES.TableID
-        AND RentalEnd > GETDATE()
+        AND RentalEnd > CAST(GETDATE() AS TIME) -- Convert GETDATE() to TIME
     );
 END;
+
+
 
 --customer history
 GO
@@ -116,4 +120,3 @@ SELECT  c.FirstName, c.LastName, c.PhoneNumber, c.EmailAddress,
 FROM CUSTOMER c
 INNER JOIN POOLRENTAL p ON c.CustomerID = p.CustomerID
 INNER JOIN RATES r ON p.RateID = r.RateID;
-
