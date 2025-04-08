@@ -44,6 +44,6 @@ Bennys-Project/
  │   ├── 📂 sprint2/       # Sprint 2 Deliverables
  │   ├── 📂 sprint3/       # Sprint 3 Deliverables
  │   ├── 📂 sprint4/       # Sprint 4 Deliverables (this folder)
- ├── 📂 src/               # Source code / application files (if included)
+ ├── 📂 code/               # Source code / application files (if included)
  ├── README.md             # Main project README
 ```
