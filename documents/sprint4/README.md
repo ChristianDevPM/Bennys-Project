@@ -14,7 +14,7 @@ This folder contains all **Sprint 4 documentation and project files**, including
   - 📌 **Technical Manual** (setup, backup, security, troubleshooting)
   - 📌 Updated diagrams, use cases, and system specs
 - **SR_R_4_Presentation.pptx** – Final presentation slide deck for Sprint 4
-- **Training Manual Standalone v1.docx / .pdf** – Printable copy of the full training manual
+- **Training Manual Standalone v1.pdf** – Printable copy of the full training manual
 - **Bennys Technical Manual-copy.docx** – Full standalone copy of the technical manual
 - **SR_R_4 Group Evaluation.docx** – Team evaluation reflecting on Sprint 4 progress
 
