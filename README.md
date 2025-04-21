@@ -1,20 +1,28 @@
-# Benny's Project
+# Benny's CueTime Project
 
-## Overview
-Benny's Project is designed to share and manage documents and code for various development sprints. This repository will track the progress and updates of the project through multiple versions.
+## 🎯 Overview
+**Benny's CueTime Project** is a pool table rental management system designed for Benny's Billiards and Sports Bar. Built as part of a senior MIS capstone, this system includes custom-built applications for both bartenders and managers, along with full documentation for implementation, training, and technical support.
 
-## Structure
-- **documents/**: Contains all project-related documents.
-  - **sprint1/**: Documents for Sprint 1.
-  - **sprint2/**: Documents for Sprint 2.
-  - **sprint3/**: Documents for Sprint 3.
-  - **sprint4/**: Documents for Sprint 4.
-  - **sprint5/**: Documents for Sprint 5.
-  - **sprint6/**: Documents for Sprint 6.
-- **code/**: Source code for the project.
+The repository tracks progress across development sprints, housing all source code, planning documents, and deliverables.
 
-## Getting Started
-To get started with the project, you can clone the repository:
+---
+
+## 🧩 Repository Structure
 
 ```bash
-git clone https://github.com/ChristianDevPM/Bennys-Project.git
+Bennys-Project/
+├── 📂 code/             # Source code and app files
+│   ├── Bennys.sql           # SQL Server database schema
+│   ├── Bennys_clean.zip     # Web-based manager interface (HTML/JS)
+│   ├── Test App.py          # Python-based bartender app
+│   └── .gitkeep
+│
+├── 📂 documents/        # Sprint-by-sprint documentation
+│   ├── sprint 1/
+│   ├── sprint 2/
+│   ├── sprint 3/
+│   ├── sprint 4/
+│   ├── sprint 5/
+│   └── sprint 6/         # Reserved for final wrap-up
+│
+└── README.md            # You are here
