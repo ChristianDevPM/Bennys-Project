@@ -17,12 +17,14 @@ Bennys-Project/
 │   ├── Test App.py          # Python-based bartender app
 │   └── .gitkeep
 │
-├── 📂 documents/        # Sprint-by-sprint documentation
-│   ├── sprint 1/
+├── 📂 documents/        # Sprint-by-sprint documentation and manuals
+│   ├── sprint 1/             # Initial planning and team charter
 │   ├── sprint 2/
 │   ├── sprint 3/
 │   ├── sprint 4/
 │   ├── sprint 5/
-│   └── sprint 6/         # Reserved for final wrap-up
+│   ├── sprint 6/             # Final wrap-up and system delivery
+│   ├── CueTimeTrainingManualv2.0.pdf
+│   └── CueTimeTechnicalManualv2.0.pdf
 │
 └── README.md            # You are here
