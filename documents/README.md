@@ -3,7 +3,8 @@
 📁 **Path:** `Bennys-Project/documents/`  
 This directory contains all documentation created for the **Benny's CueTime Project**, organized by sprint.
 
-Each subfolder includes deliverables related to that sprint, such as executive summaries, system diagrams, training materials, technical manuals, evaluations, and presentation slides.
+Each subfolder includes deliverables related to that sprint, such as executive summaries, system diagrams, training materials, technical manuals, evaluations, and presentation slides.  
+Standalone manuals are also available at the root of this folder for quick access.
 
 ---
 
@@ -16,7 +17,9 @@ Each subfolder includes deliverables related to that sprint, such as executive s
 | `sprint 3/`      | Expanded diagrams, ERD, navigation, software/hardware specifications |
 | `sprint 4/`      | First complete training and technical manuals, plus demo readiness |
 | `sprint 5/`      | Finalized features, migration plan, system documentation, and improved manuals |
-| `sprint 6/`      | *(Reserved for final wrap-up, validation, and project closure)* |
+| `sprint 6/`      | Final wrap-up, validation, and project closure deliverables |
+| `CueTimeTrainingManualv2.0.pdf` | Standalone PDF for bartender and manager end-user training |
+| `CueTimeTechnicalManualv2.0.pdf` | Standalone PDF for installation, configuration, and technical setup |
 
 ---
 
