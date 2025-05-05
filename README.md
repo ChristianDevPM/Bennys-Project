@@ -11,11 +11,15 @@ The repository tracks progress across development sprints, housing all source co
 
 ```bash
 Bennys-Project/
-├── 📂 code/             # Source code and app files
-│   ├── Bennys.sql           # SQL Server database schema
-│   ├── Bennys_clean.zip     # Web-based manager interface (HTML/JS)
-│   ├── Test App.py          # Python-based bartender app
-│   └── .gitkeep
+├── 📂 code/             # Source code, compiled apps, and technical docs
+│   ├── Bennys.sql                             # SQL Server schema
+│   ├── Bennys_cleanv1.0.zip                   # Early version of manager web app
+│   ├── Bennys_cleanv2.0.zip                   # Final version of manager web app
+│   ├── CueTime.py                             # Bartender app (final)
+│   ├── Test App.py                            # Bartender app (test version)
+│   ├── Cue Time Systems - Local Setup Guide.docx         # XAMPP and Azure SQL setup
+│   ├── CueTimeSystems-Reporting-CustDB-description.docx  # Reporting logic & schema
+│   └── README.md
 │
 ├── 📂 documents/        # Sprint-by-sprint documentation and manuals
 │   ├── sprint 1/             # Initial planning and team charter
