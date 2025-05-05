@@ -1,9 +1,14 @@
-# Benny's CueTime Project
+# 🎱 Benny's CueTime Project
+
+> 🟢 **Status:** Project Complete (Final submission – May 2025)
+
+---
 
 ## 🎯 Overview
-**Benny's CueTime Project** is a pool table rental management system designed for Benny's Billiards and Sports Bar. Built as part of a senior MIS capstone, this system includes custom-built applications for both bartenders and managers, along with full documentation for implementation, training, and technical support.
 
-The repository tracks progress across development sprints, housing all source code, planning documents, and deliverables.
+**Benny's CueTime Project** is a pool table rental management system developed for Benny's Billiards and Sports Bar. Created as part of a senior MIS capstone at East Carolina University, this project includes fully developed applications for both bartenders and managers, complete documentation, training materials, and a comprehensive project lifecycle archive.
+
+The project followed an Agile sprint-based approach with detailed planning, system design, development, and deployment phases documented from start to finish.
 
 ---
 
@@ -17,7 +22,7 @@ Bennys-Project/
 │   ├── Bennys_cleanv2.0.zip                   # Final version of manager web app
 │   ├── CueTime.py                             # Bartender app (final)
 │   ├── Test App.py                            # Bartender app (test version)
-│   ├── Cue Time Systems - Local Setup Guide.docx         # XAMPP and Azure SQL setup
+│   ├── Cue Time Systems - Local Setup Guide.docx         # XAMPP + Azure SQL setup
 │   ├── CueTimeSystems-Reporting-CustDB-description.docx  # Reporting logic & schema
 │   └── README.md
 │
@@ -28,7 +33,7 @@ Bennys-Project/
 │   ├── sprint 4/
 │   ├── sprint 5/
 │   ├── sprint 6/             # Final wrap-up and system delivery
-│   ├── CueTimeTrainingManualv2.0.pdf
-│   └── CueTimeTechnicalManualv2.0.pdf
+│   ├── CueTimeTrainingManualv2.0.pdf         # End-user training guide
+│   └── CueTimeTechnicalManualv2.0.pdf        # Technical installation guide
 │
 └── README.md            # You are here
