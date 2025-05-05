@@ -1,45 +1,47 @@
-# Benny's Pool Time System – Code Repository
+# 💻 Code Folder – CueTime Systems
 
-📂 **Path:** `Bennys-Project/code/`  
-
-This folder contains all source files, scripts, and application code for **Benny's CueTime System**, developed as part of the MIS 4173 Capstone Project.
+This folder contains all source code, compiled app packages, and technical documentation for the Benny's CueTime Project.
 
 ---
 
-## 📜 Contents
+## 📦 Application Files
 
-- **`.gitkeep`** – Placeholder file to preserve the folder in version control.
-- **`Bennys.sql`** – SQL script that defines the database schema for the CueTime system, including all necessary tables, keys, and constraints.
-- **`Bennys_clean.zip`** – Working version of the **web-based manager interface**, built with HTML, CSS, and JavaScript. This code provides access to reporting, customer management, rental rate editing, and more.
-- **`Test App.py`** – Updated **Python version of the bartender-facing app**, now supporting:
-  - Table selection and rental rate application
-  - Customer lookup and creation
-  - Waitlist functionality with real-time assignment to tables
-
----
-
-## 🚀 Current Architecture & Future Development
-
-- ✅ **Manager Interface**: Web-based front end using standard web technologies (inside `Bennys_clean.zip`)
-- ✅ **Bartender App**: Python-based local interface for tracking rentals and managing the waitlist
-- ✅ **SQL Server**: Backend hosted on SQL Server Express; communicates with both front-end apps
-- 🔒 **Data Security**: BitLocker encryption and regular OneDrive backups recommended per technical documentation
+| File | Description |
+|------|-------------|
+| `CueTime.py` | Python-based bartender application (CLI interface) |
+| `Test App.py` | Alternate or test version of the bartender app |
+| `Bennys_cleanv2.0.zip` | ✅ Latest release of the manager-facing web app (HTML, CSS, JS, PHP) |
+| `Bennys_cleanv1.0.zip` | Archived earlier version of the manager app |
 
 ---
 
-## 🗂 Repository Structure
-```bash
-Bennys-Project/
- ├── 📂 code/                  
- │   ├── .gitkeep                 
- │   ├── Bennys.sql              # SQL schema
- │   ├── Bennys_clean.zip        # Manager web app (HTML/JS)
- │   ├── Test App.py             # Bartender Python app
- ├── 📂 documents/
- │   ├── sprint 1/
- │   ├── sprint 2/
- │   ├── sprint 3/
- │   ├── sprint 4/
- │   ├── sprint 5/
- │   └── sprint 6/
- ├── README.md                   # Main project overview
+## 🗄️ Database & Configuration
+
+| File | Description |
+|------|-------------|
+| `Bennys.sql` | SQL Server schema to initialize the project database |
+| `Cue Time Systems - Local Setup Guide (XAMPP + Azure SQL Connection).docx` | Step-by-step setup guide for local hosting using XAMPP |
+
+---
+
+## 📄 Technical Documentation
+
+| File | Description |
+|------|-------------|
+| `CueTimeSystems-Reporting-CustDB-description.docx` | Manager app reporting logic and database schema reference |
+| `.gitkeep` | Placeholder file to preserve folder structure in Git |
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+1. Install XAMPP.
+2. Follow the setup guide in `Cue Time Systems - Local Setup Guide (XAMPP + Azure SQL Connection).docx`.
+3. Import `Bennys.sql` into your SQL Server database.
+4. Deploy the files from `Bennys_cleanv2.0.zip` into your `htdocs` directory.
+5. Launch Apache and navigate to the manager app in your browser.
+
+---
+
+> 📌 For full project context, documentation, and planning artifacts, see the `documents/` folder in the root repository.
